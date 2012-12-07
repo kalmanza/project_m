@@ -16,6 +16,14 @@
 		B3A7BD5F1663123700F2A8B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD5E1663123700F2A8B0 /* Default.png */; };
 		B3A7BD611663123700F2A8B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD601663123700F2A8B0 /* Default@2x.png */; };
 		B3A7BD631663123700F2A8B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD621663123700F2A8B0 /* Default-568h@2x.png */; };
+		B3A7BD6A1663139C00F2A8B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD691663139C00F2A8B0 /* Default.png */; };
+		B3A7BD6C166313B000F2A8B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD6B166313B000F2A8B0 /* Default@2x.png */; };
+		B3A7BD6E166313B600F2A8B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD6D166313B600F2A8B0 /* Default-568h@2x.png */; };
+		B3A7BD72166314F800F2A8B0 /* marveliconreg.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD71166314F800F2A8B0 /* marveliconreg.png */; };
+		B3A7BD741663152000F2A8B0 /* marveliconRet.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD731663152000F2A8B0 /* marveliconRet.png */; };
+		B3A7BD781663160200F2A8B0 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7BD761663160200F2A8B0 /* IntroViewController.m */; };
+		B3A7BD791663160200F2A8B0 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD771663160200F2A8B0 /* IntroViewController.xib */; };
+		B3A7BD7C1663179100F2A8B0 /* marvel_collage_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD7B1663179100F2A8B0 /* marvel_collage_logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,15 @@
 		B3A7BD5E1663123700F2A8B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B3A7BD601663123700F2A8B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B3A7BD621663123700F2A8B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3A7BD691663139C00F2A8B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3A7BD6B166313B000F2A8B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3A7BD6D166313B600F2A8B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3A7BD71166314F800F2A8B0 /* marveliconreg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marveliconreg.png; sourceTree = "<group>"; };
+		B3A7BD731663152000F2A8B0 /* marveliconRet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marveliconRet.png; sourceTree = "<group>"; };
+		B3A7BD751663160200F2A8B0 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		B3A7BD761663160200F2A8B0 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		B3A7BD771663160200F2A8B0 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		B3A7BD7B1663179100F2A8B0 /* marvel_collage_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marvel_collage_logo.jpg; path = ../../Downloads/marvel_collage_logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 		B3A7BD3D1663123700F2A8B0 = {
 			isa = PBXGroup;
 			children = (
+				B3A7BD7A1663176C00F2A8B0 /* images */,
 				B3A7BD521663123700F2A8B0 /* MarvelUni */,
 				B3A7BD4B1663123700F2A8B0 /* Frameworks */,
 				B3A7BD491663123700F2A8B0 /* Products */,
@@ -81,6 +99,9 @@
 				B3A7BD5B1663123700F2A8B0 /* AppDelegate.h */,
 				B3A7BD5C1663123700F2A8B0 /* AppDelegate.m */,
 				B3A7BD531663123700F2A8B0 /* Supporting Files */,
+				B3A7BD751663160200F2A8B0 /* IntroViewController.h */,
+				B3A7BD761663160200F2A8B0 /* IntroViewController.m */,
+				B3A7BD771663160200F2A8B0 /* IntroViewController.xib */,
 			);
 			path = MarvelUni;
 			sourceTree = "<group>";
@@ -97,6 +118,19 @@
 				B3A7BD621663123700F2A8B0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A7BD7A1663176C00F2A8B0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B3A7BD7B1663179100F2A8B0 /* marvel_collage_logo.jpg */,
+				B3A7BD731663152000F2A8B0 /* marveliconRet.png */,
+				B3A7BD71166314F800F2A8B0 /* marveliconreg.png */,
+				B3A7BD6D166313B600F2A8B0 /* Default-568h@2x.png */,
+				B3A7BD6B166313B000F2A8B0 /* Default@2x.png */,
+				B3A7BD691663139C00F2A8B0 /* Default.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +188,13 @@
 				B3A7BD5F1663123700F2A8B0 /* Default.png in Resources */,
 				B3A7BD611663123700F2A8B0 /* Default@2x.png in Resources */,
 				B3A7BD631663123700F2A8B0 /* Default-568h@2x.png in Resources */,
+				B3A7BD6A1663139C00F2A8B0 /* Default.png in Resources */,
+				B3A7BD6C166313B000F2A8B0 /* Default@2x.png in Resources */,
+				B3A7BD6E166313B600F2A8B0 /* Default-568h@2x.png in Resources */,
+				B3A7BD72166314F800F2A8B0 /* marveliconreg.png in Resources */,
+				B3A7BD741663152000F2A8B0 /* marveliconRet.png in Resources */,
+				B3A7BD791663160200F2A8B0 /* IntroViewController.xib in Resources */,
+				B3A7BD7C1663179100F2A8B0 /* marvel_collage_logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +207,7 @@
 			files = (
 				B3A7BD591663123700F2A8B0 /* main.m in Sources */,
 				B3A7BD5D1663123700F2A8B0 /* AppDelegate.m in Sources */,
+				B3A7BD781663160200F2A8B0 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
