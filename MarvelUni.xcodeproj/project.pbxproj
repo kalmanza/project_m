@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31B7EC71673203B0067C3BF /* marvel_collage_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B31B7EC61673203B0067C3BF /* marvel_collage_logo.jpg */; };
 		B3A7BD4D1663123700F2A8B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A7BD4C1663123700F2A8B0 /* UIKit.framework */; };
 		B3A7BD4F1663123700F2A8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A7BD4E1663123700F2A8B0 /* Foundation.framework */; };
 		B3A7BD511663123700F2A8B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A7BD501663123700F2A8B0 /* CoreGraphics.framework */; };
@@ -23,10 +24,10 @@
 		B3A7BD741663152000F2A8B0 /* marveliconRet.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD731663152000F2A8B0 /* marveliconRet.png */; };
 		B3A7BD781663160200F2A8B0 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7BD761663160200F2A8B0 /* IntroViewController.m */; };
 		B3A7BD791663160200F2A8B0 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD771663160200F2A8B0 /* IntroViewController.xib */; };
-		B3A7BD7C1663179100F2A8B0 /* marvel_collage_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A7BD7B1663179100F2A8B0 /* marvel_collage_logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31B7EC61673203B0067C3BF /* marvel_collage_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marvel_collage_logo.jpg; sourceTree = "<group>"; };
 		B3A7BD481663123700F2A8B0 /* MarvelUni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelUni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A7BD4C1663123700F2A8B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3A7BD4E1663123700F2A8B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,7 +49,6 @@
 		B3A7BD751663160200F2A8B0 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		B3A7BD761663160200F2A8B0 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		B3A7BD771663160200F2A8B0 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
-		B3A7BD7B1663179100F2A8B0 /* marvel_collage_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marvel_collage_logo.jpg; path = ../../Downloads/marvel_collage_logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		B3A7BD7A1663176C00F2A8B0 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				B3A7BD7B1663179100F2A8B0 /* marvel_collage_logo.jpg */,
+				B31B7EC61673203B0067C3BF /* marvel_collage_logo.jpg */,
 				B3A7BD731663152000F2A8B0 /* marveliconRet.png */,
 				B3A7BD71166314F800F2A8B0 /* marveliconreg.png */,
 				B3A7BD6D166313B600F2A8B0 /* Default-568h@2x.png */,
@@ -194,7 +194,7 @@
 				B3A7BD72166314F800F2A8B0 /* marveliconreg.png in Resources */,
 				B3A7BD741663152000F2A8B0 /* marveliconRet.png in Resources */,
 				B3A7BD791663160200F2A8B0 /* IntroViewController.xib in Resources */,
-				B3A7BD7C1663179100F2A8B0 /* marvel_collage_logo.jpg in Resources */,
+				B31B7EC71673203B0067C3BF /* marvel_collage_logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +316,7 @@
 				B3A7BD681663123700F2A8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
